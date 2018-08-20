@@ -1,0 +1,10 @@
+<?php
+
+function js_edit_preprocess_page(&$variables) {
+
+	$is_admin = \Drupal::service('router.admin_context')->isAdminRoute();
+	if(!$is_admin){
+		$variables['#attached']['library'][] = 'js_edit/js_edit';
+	}
+}
+

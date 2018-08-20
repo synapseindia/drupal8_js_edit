@@ -1,0 +1,6 @@
+name: 'JS Edit'
+type: 'module'
+description: 'Module to add additional Javascript using admin panel'
+core: '8.x'
+
+

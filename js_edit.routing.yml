@@ -1,0 +1,7 @@
+js_edit.path:
+  path: '/admin/config/development/js_edit'
+  defaults:
+    _form: '\Drupal\js_edit\Form\JavascriptEditForm'
+    _title: 'JS Edit'
+  requirements:
+    _permission: 'administer permissions'

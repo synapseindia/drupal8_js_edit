@@ -1,0 +1,14 @@
+js_edit:
+  version: VERSION
+  js:
+    js/js_edit.js: {}
+    js/js_added.js: {}
+    ace/ace.js: {}
+  css:
+    theme:
+      css/js_edit.css: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+    - core/drupalSettings
+    - core/jquery.once
